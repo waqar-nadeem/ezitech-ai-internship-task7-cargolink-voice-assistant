@@ -1,6 +1,5 @@
-# CargoLink Voice Note Assistant – Task 1
+# CargoLink Voice Note Assistant 
 
-**Intern:** Waqar Nadeem  
 **Client:** CargoLink Logistics  
 **Technology:** Artificial Intelligence  
 **Task:** Implement Whisper-based transcription pipeline with logging and architecture decision
@@ -9,7 +8,7 @@
 
 This repository implements the first deliverable of the CargoLink Voice Note Assistant: a robust speech-to-text backend using **local OpenAI Whisper**. Drivers and coordinators can upload short voice notes; the app transcribes them, shows the raw text, logs every event, and deletes temporary audio files immediately after processing.
 
-## Features (Task 1)
+## Features 
 
 - ✅ New Python module `transcription.py` for audio handling & transcription
 - ✅ Local OpenAI Whisper integration wrapped in try/except
