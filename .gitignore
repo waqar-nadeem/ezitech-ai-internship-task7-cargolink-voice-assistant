@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# Whisper models (large, do not commit)
+*.pt
+*.bin
+*.onnx
+
+# Temp & logs (keep structure, ignore content)
+temp/*
+!temp/.gitkeep
+logs/*
+!logs/.gitkeep
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*~
+
+# Streamlit
+.streamlit/secrets.toml
